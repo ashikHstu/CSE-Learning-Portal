@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/all_courses"
+            android:iconTint="@android:color/white"
+            android:title="All Courses" />
+        <item
+            android:id="@+id/nav_questions"
+            android:icon="@drawable/all_questions"
+            android:iconTint="@android:color/white"
+            android:title="All Questions" />
+        <item
+            android:id="@+id/catagories"
+            android:icon="@drawable/category"
+            android:iconTint="@android:color/white"
+            android:title="Categories" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_image"
+            android:iconTint="@android:color/white"
+            android:title="Profile Setting" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/about_us"
+            android:iconTint="@android:color/white"
+            android:title="About us" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:iconTint="@android:color/white"
+            android:title="Logout" />
+
+
+
+
+
+    </group>
+</menu>

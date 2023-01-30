@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cselearningportalhstu">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory,android:icon">
+        <activity android:name=".CompetitiveProgramming"></activity>
+        <activity android:name=".SoftwareDevelopment" />
+        <activity android:name=".EEE" />
+        <activity android:name=".Math" />
+        <activity android:name=".WebDesignDevelopment" />
+        <activity android:name=".ProgrammingLanguage" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".Categories" />
+        <activity android:name=".AllQuestions" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".AllCourses" />
+        <activity android:name=".VisitingSite" />
+        <activity android:name=".Coments" />
+        <activity android:name=".Extra" />
+        <activity android:name=".Level4Sem2" />
+        <activity android:name=".Level4Sem1" />
+        <activity android:name=".Level3Sem2" />
+        <activity android:name=".Level3Sem1" />
+        <activity android:name=".Level2Sem2" />
+        <activity android:name=".Level2Sem1" />
+        <activity android:name=".Level1Sem2" />
+        <activity android:name=".Level1Sem1" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AdminCategoryActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RecieveOTP" />
+        <activity android:name=".SendOTP" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

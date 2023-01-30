@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "136586554525",
+    "project_id": "cse-learning-portal",
+    "storage_bucket": "cse-learning-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136586554525:android:de10e10799549f60203874",
+        "android_client_info": {
+          "package_name": "com.example.cselearningportalhstu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136586554525-cgsgmh55o5es5mssqvne8ul22kjscmdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cselearningportalhstu",
+            "certificate_hash": "e18067153640126c7923bdbd5851d6728f52f4e6"
+          }
+        },
+        {
+          "client_id": "136586554525-nn657mbjqk01dk1f4j7j2sng25ele90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxhziKtHJ4Be3Hdf-GnJsaU6ANOEtEnwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136586554525-nn657mbjqk01dk1f4j7j2sng25ele90u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

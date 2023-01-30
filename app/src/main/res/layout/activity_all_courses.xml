@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/sm3"
+    tools:context=".AllCourses">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="All Courses"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="7dp"
+            android:textAlignment="center"
+            android:paddingTop="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="0dp"
+            android:textColor="@android:color/white"
+
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="40dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="80dp"
+            >
+
+
+            <Button
+                android:id="@+id/cse101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE101:Fundamental of Computer and Computing"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+
+
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/cse102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE102:Fundamental of Computer and Computing Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+
+
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/cse103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE103:Discrete Mathematics"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/mat101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="MAT101:Mathematics-I(Calculus and Co-ordinate geometry)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/phy103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="PHY103:Physics"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/phy104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="PHY104:Physics Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/aie105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="AIE105:Basic Mechanical Engineering"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/eng101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="ENG101:Communicative English"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/eng102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="ENG102:Communicative English Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/cse151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE151:Structured Programming Language(C)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cse152"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE152:Structured Programming Language(C) Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse153"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE153:Digital Logic Design"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse154"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE154:Digital Logic Design Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/eee155"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="EEE155:Introduction to Electrical Engineering"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/eee156"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="EEE156:Introduction to Electrical Engineering Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/aie106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="AIE106:Engineering Drawing and auto CAD Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/mat105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="MAT105:Mathematics-II(Matrix,ODE,PDE)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+            <Button
+                android:id="@+id/soc103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="SOC103:Society and Technology"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+
+
+
+            <Button
+                android:id="@+id/cse201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE201:Object Oriented Programming(C++)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/cse202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE202:Object Oriented Programming Sessional(C++)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/cse203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE203:Data Structures"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/cse204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE204:Data Structures Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+            <Button
+                android:id="@+id/cse205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE205:Numericals Method"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+            <Button
+                android:id="@+id/cse206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE206:Numerical Methods Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/eee209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="EEE209:Electronic Devices and Circuits"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/eee210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="EEE210:Electronic Devices and Circuits sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/mat201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="MAT201:Mathematics-III(Vector,LT,CV,FA)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/stt227"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="STT227:Statistics (Introduction to STT and Probality)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/cse254"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE254:Object Oriented Programming (Java) Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cse255"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE255:Algorithms Analysis and Design"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cse256"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE256:Algorithms Analysis and Design sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cse257"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE257:Theory of Computation and Concrete Mathematics"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cse258"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE258:Theory of Computation and Concrete Mathematics Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/cse259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE259:Computer Architecture and Organization(COA)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/ece259"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="ECE259:Digital Electronics and Pulse Technique"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/ece260"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="ECE260:Digital Electronics and Pulse Technique Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/act205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="ACT205:Financial and Managerial Accounting"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cse252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE252:Application Development Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+
+
+
+            <Button
+                android:id="@+id/cse303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE303:Database"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE304:Database Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE305:Software Engineering"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/cse307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE307:Microprocessor and Interfacing"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE308:Microprocessor and Interfacing Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/ece311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="ECE311:Data Communication"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/ecn305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="ECN305:Economics"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/cse302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE302:Software Development Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/cse353"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE353:Operating System"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/cse354"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE354:Operating System Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse355"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE355:Web Engineering"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse356"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE356:Web Engineering Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/cse357"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE357:Computer Networks"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse358"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE358:Computer Networks Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse359"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE359:Compiler Design"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/cse360"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE360:Compiler Design Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse361"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE361:Mathematical analysis for Computer Science"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+
+            <Button
+                android:id="@+id/cse352"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE352:Web and Mobile Application Development Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+
+
+            <Button
+                android:id="@+id/cse403"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE403:Artificial Intelligence"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+
+            <Button
+                android:id="@+id/cse404"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE404:Artificial Intelligence Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE405:Computer Graphics and Image Processing"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/cse406"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE406:Computer Graphics and Image Processing Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse408"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE408:Technical Writing and Presentation skill Development Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/cse402"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE402: Project and Thesis Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/cse453"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE453: Multimedia System and Animation Technique"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse454"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE454: Multimedia System and Animation Technique Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+            <Button
+                android:id="@+id/cse455"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE455: Computer Ethics and Cyber Law"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/mgt405"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="MGT405: Industrial Management"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+            <Button
+                android:id="@+id/cse452"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_design"
+                android:padding="20dp"
+                android:text="CSE452: Project and Thesis Sessional"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"  />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

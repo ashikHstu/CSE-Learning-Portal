@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/applogo"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:text="Sorry Admin!! wait while app is not yet completed"
+        android:textSize="22sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="80dp"
+        android:padding="30dp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@color/design_default_color_primary_dark"
+        />
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/adb3"
+    tools:context=".Level3Sem1">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level-3  Semester-I"
+            android:textAlignment="center"
+            android:paddingTop="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="0dp"
+            android:textColor="@android:color/white"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:paddingBottom="20dp">
+
+
+         <Button
+             android:id="@+id/cse303"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="50dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE303:Database"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/cse304"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="50dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE304:Database Sessional"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/cse305"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="30dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE305:Software Engineering"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+
+         <Button
+             android:id="@+id/cse307"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="30dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE307:Microprocessor and Interfacing"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/cse308"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="30dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE308:Microprocessor and Interfacing Sessional"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/ece311"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="30dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="ECE311:Data Communication"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/ecn305"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="30dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="ECN305:Economics"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/cse302"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="30dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE302:Software Development Sessional"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+
+     </LinearLayout>
+ </ScrollView>
+
+
+
+</LinearLayout>

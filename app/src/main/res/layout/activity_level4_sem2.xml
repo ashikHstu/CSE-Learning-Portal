@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/adb3"
+    tools:context=".Level4Sem2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level-4  Semester-II"
+            android:textAlignment="center"
+            android:paddingTop="7dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="0dp"
+            android:textColor="@android:color/white"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:paddingBottom="20dp">
+
+
+         <Button
+             android:id="@+id/cse453"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="50dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE453: Multimedia System and Animation Technique"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/cse454"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="50dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE454: Multimedia System and Animation Technique Sessional"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+
+         <Button
+             android:id="@+id/cse455"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="50dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE455: Computer Ethics and Cyber Law"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/mgt405"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="50dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="MGT405: Industrial Management"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+         <Button
+             android:id="@+id/cse452"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             android:layout_marginTop="50dp"
+             android:background="@drawable/input_design"
+             android:padding="20dp"
+             android:text="CSE452: Project and Thesis Sessional"
+             android:textAllCaps="false"
+             android:textColor="@android:color/white"
+             android:textSize="18sp"  />
+
+
+
+
+     </LinearLayout>
+
+ </ScrollView>
+
+
+</LinearLayout>
